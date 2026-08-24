@@ -3,8 +3,8 @@
   "metadata": {
     "title": "Viper V4 Pro",
     "author": "3D App Author",
-    "createdAt": "2026-08-23T13:31:17.578Z",
-    "updatedAt": "2026-08-23T13:31:17.578Z",
+    "createdAt": "2026-08-24T03:47:30.844Z",
+    "updatedAt": "2026-08-24T03:47:30.844Z",
     "generator": "3D App Viewer Editor v2.0.0",
     "tags": [
       "3d",
@@ -110,8 +110,8 @@
   "hotspots": [
     {
       "id": "hotspot_1778478610537",
-      "title": "DPI & Power LED",
-      "description": "Multi-stage LED indicator for active DPI sensitivity stage and battery power status.",
+      "title": "",
+      "description": "LED indicator for DPI and power",
       "position": [
         0.004160230515804056,
         0.026601059226252374,
@@ -124,8 +124,8 @@
     },
     {
       "id": "hotspot_1778478759130",
-      "title": "Optical Mouse Switches Gen-4",
-      "description": "Ultra-responsive switches with zero debounce delay and 90-million click lifecycle.",
+      "title": "",
+      "description": "Razer™ Optical Mouse Switches Gen-4",
       "position": [
         -0.9086009161508204,
         0.21571523764414358,
@@ -138,8 +138,8 @@
     },
     {
       "id": "hotspot_1778478787552",
-      "title": "Optical Scroll Wheel",
-      "description": "Tactile, notched optical encoder for precision weapon switching and scrolling.",
+      "title": "",
+      "description": "Razer™ Optical Scroll Wheel",
       "position": [
         0.014487491243838337,
         0.996673355009617,
@@ -152,8 +152,8 @@
     },
     {
       "id": "hotspot_1778478816177",
-      "title": "Ultra-Lightweight Ergonomics",
-      "description": "Sub-50g symmetrical esports chassis engineered for effortless control and rapid flicks.",
+      "title": "",
+      "description": "49 g / 50 g Ultra-Lightweight Design",
       "position": [
         0.9523258712583187,
         0.9062442497630064,
@@ -166,16 +166,44 @@
     },
     {
       "id": "hotspot_1778478854903",
-      "title": "HyperSpeed Wireless Gen-2",
-      "description": "True 8000 Hz polling rate wireless technology with ultra-low latency.",
+      "title": "",
+      "description": "Razer™ HyperSpeed Wireless Gen-2",
       "position": [
         0.010442664361433375,
         -0.33493490337758464,
         -2.977503512763616
       ],
       "panelOffset": {
-        "x": 373,
-        "y": 248
+        "x": 372,
+        "y": -301
+      }
+    },
+    {
+      "id": "hotspot_1787543143446",
+      "title": "",
+      "description": "Razer™ Focus Pro 50K Optical Sensor Gen-3",
+      "position": [
+        -0.009294667790254963,
+        -0.8628830592694001,
+        -0.49723306083129915
+      ],
+      "panelOffset": {
+        "x": -711,
+        "y": -139
+      }
+    },
+    {
+      "id": "hotspot_1787543182203",
+      "title": "",
+      "description": "Up To 180 Hours of Battery Life",
+      "position": [
+        -0.020474331126879346,
+        -0.8721639732841882,
+        1.1779393445559891
+      ],
+      "panelOffset": {
+        "x": 411,
+        "y": 89
       }
     }
   ]
