@@ -3,8 +3,8 @@
   "metadata": {
     "title": "Viper V4 Pro",
     "author": "3D App Author",
-    "createdAt": "2026-08-24T10:42:38.169Z",
-    "updatedAt": "2026-08-24T10:42:38.169Z",
+    "createdAt": "2026-08-24T13:43:17.610Z",
+    "updatedAt": "2026-08-24T13:43:17.610Z",
     "generator": "3D App Viewer Editor v2.0.0",
     "tags": [
       "3d",
@@ -53,6 +53,8 @@
     "far": 1000,
     "minDistance": 2.5,
     "maxDistance": 11.5,
+    "minPitch": -82,
+    "maxPitch": 82,
     "target": [
       0,
       0.2,
@@ -109,7 +111,8 @@
   ],
   "settings": {
     "line": {
-      "color": "#44D62C",
+      "color": "#c7c7c7",
+      "style": "solid",
       "width": 1.5,
       "offset": {
         "x": 0,
@@ -117,6 +120,7 @@
       }
     },
     "hotspots": {
+      "panelColor": "#414149",
       "pulseAnimation": true,
       "theme": "default",
       "occlusionTolerance": 0.08
@@ -124,7 +128,9 @@
     "controls": {
       "defaultEnabled": true,
       "explodeEnabled": false,
-      "simulatorEnabled": true
+      "simulatorEnabled": true,
+      "simulatorJsFunction": "onSimulatorToggle",
+      "simulatorUrl": ""
     }
   },
   "hotspots": [
