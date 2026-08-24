@@ -3,8 +3,8 @@
   "metadata": {
     "title": "BlackShark V3 X HyperSpeed PS",
     "author": "3D App Author",
-    "createdAt": "2026-08-24T07:07:07.324Z",
-    "updatedAt": "2026-08-24T07:07:07.324Z",
+    "createdAt": "2026-08-24T12:10:10.262Z",
+    "updatedAt": "2026-08-24T12:10:10.262Z",
     "generator": "3D App Viewer Editor v2.0.0",
     "tags": [
       "3d",
@@ -17,7 +17,7 @@
     "backgroundType": "color",
     "backgroundBlur": 0,
     "environment": {
-      "preset": "studio_small_09",
+      "preset": "potsdamer_platz",
       "customHdrUrl": null,
       "intensity": 1,
       "rotation": 0,
@@ -51,8 +51,10 @@
     "fov": 45,
     "near": 0.01,
     "far": 1000,
-    "minDistance": 3.896090817365292,
-    "maxDistance": 22.021382880760346,
+    "minDistance": 2.5,
+    "maxDistance": 12.5,
+    "minPitch": -89,
+    "maxPitch": 89,
     "target": [
       0,
       0,
@@ -157,21 +159,105 @@
       "pulseAnimation": true,
       "theme": "default",
       "occlusionTolerance": 0.08
+    },
+    "controls": {
+      "defaultEnabled": true,
+      "explodeEnabled": false,
+      "simulatorEnabled": true,
+      "simulatorJsFunction": "onSimulatorToggle",
+      "simulatorUrl": ""
     }
   },
   "hotspots": [
     {
-      "id": "hotspot_1787551979323",
+      "id": "hotspot_1787572753266",
       "title": "",
-      "description": "Microphone",
+      "description": "3 Modes of Connectivity",
+      "listItems": [],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
       "position": [
-        -0.891472478590547,
-        -2.289987817268447,
-        2.6453383139768527
+        -1.3045695633240455,
+        -2.0739550234378026,
+        -0.633459583404115
       ],
       "panelOffset": {
-        "x": 224,
-        "y": 219
+        "x": 452,
+        "y": 104
+      }
+    },
+    {
+      "id": "hotspot_1787572790426",
+      "title": "",
+      "description": "Mic mute button",
+      "listItems": [
+        "If green indicator is visible = Unmute",
+        "If green indicator not visible = Mute"
+      ],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
+      "position": [
+        1.452501584372196,
+        -1.7582497651316273,
+        -0.8819823635318759
+      ],
+      "panelOffset": {
+        "x": -737,
+        "y": -188
+      }
+    },
+    {
+      "id": "hotspot_1787572889565",
+      "title": "",
+      "description": "Detachable Razer HyperClear Full Band 9.9 mm Mic",
+      "listItems": [
+        "For unparalleled voice capture and transmission quality"
+      ],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
+      "position": [
+        -0.8250664319501022,
+        -2.350804294319606,
+        2.653336937148569
+      ],
+      "panelOffset": {
+        "x": -746,
+        "y": 249
+      }
+    },
+    {
+      "id": "hotspot_1787572933724",
+      "title": "",
+      "description": "Power button",
+      "listItems": [
+        "Press and hold to power on and off"
+      ],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
+      "position": [
+        1.2763585677814162,
+        -2.2203568425052755,
+        -0.3345854708191235
+      ],
+      "panelOffset": {
+        "x": 459,
+        "y": 314
       }
     }
   ]

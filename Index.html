@@ -44,6 +44,36 @@
             text-align: center;
         }
 
+        /* STYLING FOR THE MODEL SELECTOR CONTAINER */
+        .selector-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        .selector-container label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333333;
+        }
+
+        .selector-container select {
+            width: 100%;
+            padding: 10px 14px;
+            font-size: 14px;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            background-color: #ffffff;
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .selector-container select:focus {
+            border-color: #0076ff;
+        }
+
         .embed-wrapper {
             background-color: #000000; /* Dark background helps 3D models pop */
             border-radius: 12px;
@@ -58,11 +88,21 @@
         <h1>SnekiRotate 3D Live Embed Test</h1>
         <p>Testing live remote asset streaming from GitHub Pages hosting.</p>
 
+        <!-- MODEL SELECTOR OPTION -->
+        <div class="selector-container">
+            <label for="modelSelect">Choose a 3D Model:</label>
+            <select id="modelSelect" onchange="switchModel()">
+                <option value="Viper">Razer Viper V4 Pro</option>
+                <option value="BlackShark">Razer BlackShark V3 X HyperSpeed PS</option>
+            </select>
+        </div>
+
         <!-- START OF YOUR EMBED CODE -->
         <div class="embed-wrapper">
             <div style="width: 100%; height: 340px; max-width: 600px; margin: 0 auto; position: relative;">
               <iframe
-                src="https://rinku31.github.io/3D-App-Viewer/Embed/index.html?glb=https://quietlang13.github.io/3D-IPE-Files/Viper%20V4%20Pro/Viper%20V4%20Pro.glb&scene=https://quietlang13.github.io/3D-IPE-Files/Viper%20V4%20Pro/Viper%20V4%20Pro.json"
+                id="productViewer"
+                src="https://rinku31.github.io/3D-App-Viewer/Embed/index.html?glb=https://github.io%20V4%20Pro/Viper%20V4%20Pro.glb&scene=https://github.io%20V4%20Pro/Viper%20V4%20Pro.json"
                 title="3D Interactive Product Viewer"
                 style="width: 100%; height: 100%; border: none; border-radius: 12px; display: block;"
                 allow="fullscreen"
@@ -73,6 +113,39 @@
         <!-- END OF YOUR EMBED CODE -->
 
     </div>
+
+    <!-- JAVASCRIPT TO HANDLE INTERACTIVE UPDATES -->
+    <script>
+        function switchModel() {
+            const selector = document.getElementById('modelSelect');
+            const iframe = document.getElementById('productViewer');
+            
+            // Base URL of your web application viewer
+            const baseViewerUrl = "https://rinku31.github.io/3D-App-Viewer/Embed/index.html";
+
+            // Object map storing configuration variables for cleanly formatted, encoded paths
+            const models = {
+                Viper: {
+                    glb: "https://github.io V4 Pro/Viper V4 Pro.glb",
+                    scene: "https://github.io V4 Pro/Viper V4 Pro.json"
+                },
+                BlackShark: {
+                    glb: "https://quietlang13.github.io/3D-IPE-Files/BlackShark V3 X HyperSpeed  PS/BlackShark V3 X HyperSpeed  PS.glb",
+                    scene: "https://quietlang13.github.io/3D-IPE-Files/BlackShark V3 X HyperSpeed  PS/BlackShark V3 X HyperSpeed  PS.json"
+                }
+            };
+
+            const selectedKey = selector.value;
+            const chosenModel = models[selectedKey];
+
+            // Safely encode URLs to handle spaces ("%20") seamlessly across all web browsers
+            const glbEncoded = encodeURIComponent(chosenModel.glb);
+            const sceneEncoded = encodeURIComponent(chosenModel.scene);
+
+            // Reconstruct the new source link string
+            iframe.src = `${baseViewerUrl}?glb=${glbEncoded}&scene=${sceneEncoded}`;
+        }
+    </script>
 
 </body>
 </html>
