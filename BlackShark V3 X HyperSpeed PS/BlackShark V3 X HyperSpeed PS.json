@@ -3,8 +3,8 @@
   "metadata": {
     "title": "BlackShark V3 X HyperSpeed PS",
     "author": "3D App Author",
-    "createdAt": "2026-08-24T12:10:10.262Z",
-    "updatedAt": "2026-08-24T12:10:10.262Z",
+    "createdAt": "2026-08-24T13:25:20.333Z",
+    "updatedAt": "2026-08-24T13:25:20.333Z",
     "generator": "3D App Viewer Editor v2.0.0",
     "tags": [
       "3d",
@@ -13,11 +13,11 @@
     ]
   },
   "scene": {
-    "background": "#666666",
+    "background": "#ffffff",
     "backgroundType": "color",
     "backgroundBlur": 0,
     "environment": {
-      "preset": "potsdamer_platz",
+      "preset": "studio_small_09",
       "customHdrUrl": null,
       "intensity": 1,
       "rotation": 0,
@@ -148,7 +148,8 @@
   ],
   "settings": {
     "line": {
-      "color": "#44D62C",
+      "color": "#c9c9c9",
+      "style": "solid",
       "width": 1.5,
       "offset": {
         "x": 0,
@@ -156,6 +157,7 @@
       }
     },
     "hotspots": {
+      "panelColor": "#3f3f4a",
       "pulseAnimation": true,
       "theme": "default",
       "occlusionTolerance": 0.08
@@ -186,8 +188,8 @@
         -0.633459583404115
       ],
       "panelOffset": {
-        "x": 452,
-        "y": 104
+        "x": 471,
+        "y": -201
       }
     },
     {
@@ -233,8 +235,8 @@
         2.653336937148569
       ],
       "panelOffset": {
-        "x": -746,
-        "y": 249
+        "x": -768,
+        "y": 152
       }
     },
     {
@@ -256,8 +258,8 @@
         -0.3345854708191235
       ],
       "panelOffset": {
-        "x": 459,
-        "y": 314
+        "x": 447,
+        "y": -2
       }
     }
   ]
