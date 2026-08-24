@@ -3,8 +3,8 @@
   "metadata": {
     "title": "Viper V4 Pro",
     "author": "3D App Author",
-    "createdAt": "2026-08-24T03:47:30.844Z",
-    "updatedAt": "2026-08-24T03:47:30.844Z",
+    "createdAt": "2026-08-24T10:42:38.169Z",
+    "updatedAt": "2026-08-24T10:42:38.169Z",
     "generator": "3D App Viewer Editor v2.0.0",
     "tags": [
       "3d",
@@ -22,11 +22,25 @@
       "intensity": 1.5,
       "rotation": 0,
       "exposure": 1.4,
-      "toneMapping": "ACESFilmic"
+      "exposureEV": 0,
+      "toneMapping": "ACESFilmic",
+      "look": "None"
     },
     "rendering": {
       "shadows": true,
-      "shadowType": "pcfsoft"
+      "shadowType": "pcfsoft",
+      "bloom": {
+        "enabled": true,
+        "strength": 0.2,
+        "radius": 0.8,
+        "threshold": 1.2
+      }
+    },
+    "bloom": {
+      "enabled": true,
+      "strength": 0.2,
+      "radius": 0.8,
+      "threshold": 1.2
     },
     "helpers": {
       "grid": false,
@@ -45,8 +59,8 @@
       0
     ],
     "distance": 8.780986177504424,
-    "yaw": 9.43689570931383e-16,
-    "pitch": -1.570796326794897,
+    "yaw": 1.1102230246251565e-16,
+    "pitch": 8.465450562766819e-16,
     "viewpoints": []
   },
   "model": {
@@ -59,7 +73,7 @@
     ],
     "rotation": {
       "x": 0,
-      "y": 0,
+      "y": 3.141592653589793,
       "z": 0
     },
     "scale": [
@@ -77,19 +91,20 @@
       "intensity": 73.5,
       "castShadow": true,
       "position": [
-        -0.00360075132418869,
-        4.076850448729433,
-        3.478191314576925
+        -0.003649004193122155,
+        2.340566789795847,
+        -4.247992216676897
       ],
       "target": [
-        -0.00037129543168180597,
-        0.5181502130624702,
-        2.2939068911960776
+        -0.005821435186284418,
+        0.7497948498925365,
+        -2.072867769943122
       ],
-      "distance": 10.5,
-      "decay": 0.6,
-      "angle": 0.4886921905584123,
-      "penumbra": 0.75
+      "distance": 16,
+      "decay": 1.8,
+      "angle": 0.7853981633974483,
+      "penumbra": 0.3,
+      "radius": 5
     }
   ],
   "settings": {
@@ -105,6 +120,11 @@
       "pulseAnimation": true,
       "theme": "default",
       "occlusionTolerance": 0.08
+    },
+    "controls": {
+      "defaultEnabled": true,
+      "explodeEnabled": false,
+      "simulatorEnabled": true
     }
   },
   "hotspots": [
@@ -112,98 +132,147 @@
       "id": "hotspot_1778478610537",
       "title": "",
       "description": "LED indicator for DPI and power",
+      "listItems": [],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
       "position": [
-        0.004160230515804056,
-        0.026601059226252374,
-        -3.22658717589361
+        0.019949319298398466,
+        0.05285831205697554,
+        3.18548667595154
       ],
       "panelOffset": {
-        "x": 345,
-        "y": -294
+        "x": 407,
+        "y": -123
       }
     },
     {
       "id": "hotspot_1778478759130",
       "title": "",
       "description": "Razer™ Optical Mouse Switches Gen-4",
+      "listItems": [],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
       "position": [
-        -0.9086009161508204,
-        0.21571523764414358,
-        -2.5366041633084517
+        -0.8264751858191512,
+        0.5939558468071877,
+        1.8550087938813384
       ],
       "panelOffset": {
-        "x": -639,
-        "y": -368
+        "x": -711,
+        "y": -13
       }
     },
     {
       "id": "hotspot_1778478787552",
       "title": "",
       "description": "Razer™ Optical Scroll Wheel",
+      "listItems": [],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
       "position": [
-        0.014487491243838337,
-        0.996673355009617,
-        -1.5550765148898176
+        -0.03338943502890772,
+        0.9298217298808678,
+        2.02049752987495
       ],
       "panelOffset": {
-        "x": -643,
-        "y": -128
+        "x": -528,
+        "y": -344
       }
     },
     {
       "id": "hotspot_1778478816177",
       "title": "",
       "description": "49 g / 50 g Ultra-Lightweight Design",
+      "listItems": [],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
       "position": [
-        0.9523258712583187,
-        0.9062442497630064,
-        1.4217579174113542
+        1.1160457611224375,
+        0.9097522513067398,
+        -1.1448446381335529
       ],
       "panelOffset": {
-        "x": 391,
-        "y": 27
+        "x": 398,
+        "y": -309
       }
     },
     {
       "id": "hotspot_1778478854903",
       "title": "",
       "description": "Razer™ HyperSpeed Wireless Gen-2",
+      "listItems": [],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
       "position": [
-        0.010442664361433375,
-        -0.33493490337758464,
-        -2.977503512763616
+        0.022772896425578334,
+        -0.3920198512678594,
+        2.9241277153022236
       ],
       "panelOffset": {
-        "x": 372,
-        "y": -301
+        "x": 417,
+        "y": 6
       }
     },
     {
       "id": "hotspot_1787543143446",
       "title": "",
       "description": "Razer™ Focus Pro 50K Optical Sensor Gen-3",
+      "listItems": [],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
       "position": [
-        -0.009294667790254963,
-        -0.8628830592694001,
-        -0.49723306083129915
+        0.010447288105443316,
+        -0.8628830592694016,
+        0.4860934153399477
       ],
       "panelOffset": {
-        "x": -711,
-        "y": -139
+        "x": -651,
+        "y": -43
       }
     },
     {
       "id": "hotspot_1787543182203",
       "title": "",
       "description": "Up To 180 Hours of Battery Life",
+      "listItems": [],
+      "button": {
+        "enabled": false,
+        "text": "Show Article",
+        "url": "",
+        "jsFunction": ""
+      },
       "position": [
-        -0.020474331126879346,
-        -0.8721639732841882,
-        1.1779393445559891
+        0.017452449546499858,
+        -0.863634821002394,
+        -0.8497022314345752
       ],
       "panelOffset": {
-        "x": 411,
-        "y": 89
+        "x": 427,
+        "y": 206
       }
     }
   ]

@@ -1,0 +1,178 @@
+{
+  "version": "2.0.0",
+  "metadata": {
+    "title": "BlackShark V3 X HyperSpeed PS",
+    "author": "3D App Author",
+    "createdAt": "2026-08-24T07:07:07.324Z",
+    "updatedAt": "2026-08-24T07:07:07.324Z",
+    "generator": "3D App Viewer Editor v2.0.0",
+    "tags": [
+      "3d",
+      "product-viewer",
+      "interactive"
+    ]
+  },
+  "scene": {
+    "background": "#666666",
+    "backgroundType": "color",
+    "backgroundBlur": 0,
+    "environment": {
+      "preset": "studio_small_09",
+      "customHdrUrl": null,
+      "intensity": 1,
+      "rotation": 0,
+      "exposure": 1,
+      "exposureEV": 0,
+      "toneMapping": "ACESFilmic",
+      "look": "None"
+    },
+    "rendering": {
+      "shadows": true,
+      "shadowType": "pcfsoft",
+      "bloom": {
+        "enabled": true,
+        "strength": 0.45,
+        "radius": 1.15,
+        "threshold": 1.05
+      }
+    },
+    "bloom": {
+      "enabled": true,
+      "strength": 0.45,
+      "radius": 1.15,
+      "threshold": 1.05
+    },
+    "helpers": {
+      "grid": false,
+      "axes": false
+    }
+  },
+  "camera": {
+    "fov": 45,
+    "near": 0.01,
+    "far": 1000,
+    "minDistance": 3.896090817365292,
+    "maxDistance": 22.021382880760346,
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "distance": 10.298247096231766,
+    "yaw": 31.351924765878394,
+    "pitch": -0.024000396728516452,
+    "viewpoints": []
+  },
+  "model": {
+    "name": "BlackShark V3 X HyperSpeed PS",
+    "filename": "BlackShark V3 X HyperSpeed PS.glb",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "lights": [
+    {
+      "id": "area_light_mt6sz53l",
+      "name": "Area Softbox",
+      "type": "area",
+      "color": "#e6ebff",
+      "intensity": 7,
+      "castShadow": false,
+      "position": [
+        -4.261081332292415,
+        -3.078866634419308,
+        0.10357770100603392
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "width": 5,
+      "height": 5
+    },
+    {
+      "id": "area_light_mt6t0fxi",
+      "name": "Area Softbox",
+      "type": "area",
+      "color": "#e6ebff",
+      "intensity": 7,
+      "castShadow": false,
+      "position": [
+        4.723124854493884,
+        -2.7313886637613596,
+        0.01345066395117489
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "width": 5,
+      "height": 5
+    },
+    {
+      "id": "area_light_mt6t46wr",
+      "name": "Area Softbox",
+      "type": "area",
+      "color": "#ffffff",
+      "intensity": 3.5,
+      "castShadow": false,
+      "position": [
+        0,
+        6.391898896087233,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "width": 5,
+      "height": 5
+    }
+  ],
+  "settings": {
+    "line": {
+      "color": "#44D62C",
+      "width": 1.5,
+      "offset": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "hotspots": {
+      "pulseAnimation": true,
+      "theme": "default",
+      "occlusionTolerance": 0.08
+    }
+  },
+  "hotspots": [
+    {
+      "id": "hotspot_1787551979323",
+      "title": "",
+      "description": "Microphone",
+      "position": [
+        -0.891472478590547,
+        -2.289987817268447,
+        2.6453383139768527
+      ],
+      "panelOffset": {
+        "x": 224,
+        "y": 219
+      }
+    }
+  ]
+}
