@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Viewer Embed Test Page</title>
+    
+    <!-- GENERIC INLINE SVG FAVICON TO PREVENT LIVE SERVER 404 ERRORS -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📦</text></svg>">
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f5f7;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .test-container {
+            background: #ffffff;
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            width: 100%;
+            max-width: 640px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 20px;
+            color: #1a1a1a;
+            margin-top: 0;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .embed-wrapper {
+            background-color: #000000; /* Dark background helps 3D models pop */
+            border-radius: 12px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="test-container">
+        <h1>SnekiRotate 3D Live Embed Test</h1>
+        <p>Testing live remote asset streaming from GitHub Pages hosting.</p>
+
+        <!-- START OF YOUR EMBED CODE -->
+        <div class="embed-wrapper">
+            <div style="width: 100%; height: 340px; max-width: 600px; margin: 0 auto; position: relative;">
+              <iframe
+                src="https://rinku31.github.io/3D-App-Viewer/Embed/index.html?glb=https://quietlang13.github.io/3D-IPE-Files/Viper%20V4%20Pro/Viper%20V4%20Pro.glb&scene=https://quietlang13.github.io/3D-IPE-Files/Viper%20V4%20Pro/Viper%20V4%20Pro.json"
+                title="3D Interactive Product Viewer"
+                style="width: 100%; height: 100%; border: none; border-radius: 12px; display: block;"
+                allow="fullscreen"
+                loading="lazy"
+              ></iframe>
+            </div>
+        </div>
+        <!-- END OF YOUR EMBED CODE -->
+
+    </div>
+
+</body>
+</html>
