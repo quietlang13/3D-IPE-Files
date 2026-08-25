@@ -3,8 +3,8 @@
   "metadata": {
     "title": "BlackShark V3 X HyperSpeed PS",
     "author": "3D App Author",
-    "createdAt": "2026-08-25T06:14:35.436Z",
-    "updatedAt": "2026-08-25T06:14:35.436Z",
+    "createdAt": "2026-08-25T10:23:20.587Z",
+    "updatedAt": "2026-08-25T10:23:20.587Z",
     "generator": "3D App Viewer Editor v2.0.0",
     "tags": [
       "3d",
@@ -43,7 +43,7 @@
       "threshold": 1.05
     },
     "helpers": {
-      "grid": false,
+      "grid": true,
       "axes": false
     }
   },
@@ -56,13 +56,13 @@
     "minPitch": -89,
     "maxPitch": 89,
     "target": [
-      8.370820836489656e-8,
-      0.3737248655996086,
-      0.7419320400938967
+      0,
+      0.37,
+      0
     ],
-    "distance": 9.329196554945911,
+    "distance": 10.20776695805306,
     "yaw": 31.41592653589793,
-    "pitch": 6.661338147750939e-16,
+    "pitch": 1.8041124150158794e-16,
     "viewpoints": []
   },
   "model": {
@@ -92,6 +92,8 @@
       "color": "#e6ebff",
       "intensity": 7,
       "castShadow": false,
+      "visible": true,
+      "locked": false,
       "position": [
         -4.261081332292415,
         -3.078866634419308,
@@ -112,6 +114,8 @@
       "color": "#e6ebff",
       "intensity": 7,
       "castShadow": false,
+      "visible": true,
+      "locked": false,
       "position": [
         4.723124854493884,
         -2.7313886637613596,
@@ -132,6 +136,8 @@
       "color": "#ffffff",
       "intensity": 3.5,
       "castShadow": false,
+      "visible": true,
+      "locked": false,
       "position": [
         0,
         6.391898896087233,
@@ -175,6 +181,8 @@
       "id": "hotspot_1787572753266",
       "title": "",
       "description": "3 Modes of Connectivity",
+      "visible": true,
+      "locked": false,
       "listItems": [],
       "button": {
         "enabled": false,
@@ -196,6 +204,8 @@
       "id": "hotspot_1787572790426",
       "title": "",
       "description": "Mic mute button",
+      "visible": true,
+      "locked": false,
       "listItems": [
         "If green indicator is visible = Unmute",
         "If green indicator not visible = Mute"
@@ -220,6 +230,8 @@
       "id": "hotspot_1787572889565",
       "title": "",
       "description": "Detachable Razer HyperClear Full Band 9.9 mm Mic",
+      "visible": true,
+      "locked": false,
       "listItems": [
         "For unparalleled voice capture and transmission quality"
       ],
@@ -243,6 +255,8 @@
       "id": "hotspot_1787572933724",
       "title": "",
       "description": "Power button",
+      "visible": true,
+      "locked": false,
       "listItems": [
         "Press and hold to power on and off"
       ],
